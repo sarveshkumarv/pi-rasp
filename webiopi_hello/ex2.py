@@ -17,11 +17,8 @@ USED_PIN = 9
 
 def test(stream):
 	webiopi.debug('Hello script - Test')
-	value = GPIO.getFunction(USED_PIN)
 	while 1:
-		#Default is OUT. Change it to IN in the browser
-		# TODO : doesnt seem to work. check!
-		if value==GPIO.OUT:
+		if GPIO.getFunction(USED_PIN)==GPIO.OUT:
 			print ("GPIO is high")
 			stream.write('GPIO %d is OUT\n'% USED_PIN)
 			stream.write('exit')
