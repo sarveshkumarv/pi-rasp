@@ -1,0 +1,4 @@
+This folder contains the code to control our electrical switches with RF recievers using the pi.
+We followed the instructions in this post (http://www.hoagieshouse.com/RaspberryPi/RCSockets/RCPlug.html)
+
+
