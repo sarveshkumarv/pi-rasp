@@ -1,0 +1,19 @@
+Procedure to make releases to github:
+-------------------------------------
+
+1.) To add folder to a repository:
+
+	git add <folder>/*
+
+2.) To commit changes locally(not yet pushed):
+
+	git commit -m "<Message>"
+
+3.) To push the changes to the repo:
+
+	git push -u origin master
+
+4.) To view the uncomitted changes:
+	
+	git status
+
