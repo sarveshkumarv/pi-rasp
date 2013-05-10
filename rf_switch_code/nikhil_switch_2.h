@@ -57,3 +57,7 @@ float timeVal[] =
 const int timeSize=49;
 
 const int timeOff=5269; //off time in micro seconds
+
+
+//This is just a speculation still. have to figure out this number
+const int loopCount=3; 

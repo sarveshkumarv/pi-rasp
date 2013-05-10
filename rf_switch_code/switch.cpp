@@ -1,6 +1,7 @@
 #include "switch.h"
 #include "nikhil_switch_2.h"
-
+//#include "sar_switch_on.h"
+//#include "sar_switch_off.h"
 int main(int argc, char **argv)
 { 
 	int g,rep;
@@ -70,7 +71,7 @@ void SendCode()
 	timespec remtime;
 
 
-	for (int iSend = 0 ; iSend < 3 ; iSend++)
+	for (int iSend = 0 ; iSend < loopCount ; iSend++)
 	{
 		sleeptime.tv_sec = 0;
 
